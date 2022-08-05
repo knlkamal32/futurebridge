@@ -1,0 +1,19 @@
+.mv-card {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: rgb(236, 247, 248);
+}
+
+.mv-name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mv-rating > span, .mv-date > span {
+    font-weight: 500;
+}
